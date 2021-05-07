@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "logic:block/bitium_block" }
+  }
+}
