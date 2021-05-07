@@ -1,0 +1,5 @@
+com/logic/logicmod/Logic.java
+ com.logic.logicmod.Logic
+ com.logic.logicmod.Logic$RegistryEvents
+com/logic/logicmod/RegistryHandler.java
+ com.logic.logicmod.RegistryHandler
