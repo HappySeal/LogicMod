@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bitium_block"
+          "name": "logic:bitium_block"
         }
       ],
       "conditions": [

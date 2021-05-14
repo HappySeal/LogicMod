@@ -1,5 +1,6 @@
 package com.logic.logicmod;
 
+import com.logic.logicmod.setup.RegistryHandler;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -41,6 +42,7 @@ public class Logic
         MinecraftForge.EVENT_BUS.register(this);
 
         RegistryHandler.init();
+        EventHandler.init();
     }
 
     private void setup(final FMLCommonSetupEvent event)
