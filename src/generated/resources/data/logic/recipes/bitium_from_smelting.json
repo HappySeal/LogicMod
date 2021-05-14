@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "logic:bitium_ore"
+  },
+  "result": "logic:bitium",
+  "experience": 1.0,
+  "cookingtime": 200
+}

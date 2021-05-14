@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "logic:bitium_block"
+    }
+  ],
+  "result": {
+    "item": "logic:bitium",
+    "count": 9
+  }
+}
