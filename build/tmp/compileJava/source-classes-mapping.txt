@@ -1,32 +1,61 @@
-com/logic/logicmod/Logic.java
- com.logic.logicmod.Logic
- com.logic.logicmod.Logic$RegistryEvents
-com/logic/logicmod/setup/ModBlocks.java
- com.logic.logicmod.setup.ModBlocks
-com/logic/logicmod/setup/ModItems.java
- com.logic.logicmod.setup.ModItems
+com/logic/logicmod/data/client/ModRecipeProvider.java
+ com.logic.logicmod.data.client.ModRecipeProvider
+com/logic/logicmod/data/DataGenerators.java
+ com.logic.logicmod.data.DataGenerators
 com/logic/logicmod/setup/ModTags.java
  com.logic.logicmod.setup.ModTags
  com.logic.logicmod.setup.ModTags$Blocks
  com.logic.logicmod.setup.ModTags$Items
+com/logic/logicmod/EventHandler.java
+ com.logic.logicmod.EventHandler
+com/logic/logicmod/block/package-info.java
+ com.logic.logicmod.block.package-info
+com/logic/logicmod/data/ModBlockTagsProvider.java
+ com.logic.logicmod.data.ModBlockTagsProvider
+com/logic/logicmod/block/CircuitTable/GateBuilderBlock.java
+ com.logic.logicmod.block.CircuitTable.GateBuilderBlock
+ com.logic.logicmod.block.CircuitTable.GateBuilderBlock$1
+com/logic/logicmod/data/client/ModItemModelProvider.java
+ com.logic.logicmod.data.client.ModItemModelProvider
 com/logic/logicmod/data/ModItemTagsProvider.java
  com.logic.logicmod.data.ModItemTagsProvider
 com/logic/logicmod/Redstone_Byte.java
  com.logic.logicmod.Redstone_Byte
-com/logic/logicmod/setup/RegistryHandler.java
- com.logic.logicmod.setup.RegistryHandler
-com/logic/logicmod/data/ModBlockTagsProvider.java
- com.logic.logicmod.data.ModBlockTagsProvider
+com/logic/logicmod/crafting/recipe/package-info.java
+ com.logic.logicmod.crafting.recipe.package-info
 com/logic/logicmod/data/client/ModBlockStateProvider.java
  com.logic.logicmod.data.client.ModBlockStateProvider
+com/logic/logicmod/Logic.java
+ com.logic.logicmod.Logic
+ com.logic.logicmod.Logic$RegistryEvents
+com/logic/logicmod/setup/ModItems.java
+ com.logic.logicmod.setup.ModItems
+com/logic/logicmod/crafting/recipe/GateBuilderRecipe.java
+ com.logic.logicmod.crafting.recipe.GateBuilderRecipe
+ com.logic.logicmod.crafting.recipe.GateBuilderRecipe$Serializer
 com/logic/logicmod/data/client/ModLootTableProvider.java
  com.logic.logicmod.data.client.ModLootTableProvider
  com.logic.logicmod.data.client.ModLootTableProvider$ModBlockLootTable
-com/logic/logicmod/EventHandler.java
- com.logic.logicmod.EventHandler
-com/logic/logicmod/data/client/ModItemModelProvider.java
- com.logic.logicmod.data.client.ModItemModelProvider
-com/logic/logicmod/data/DataGenerators.java
- com.logic.logicmod.data.DataGenerators
-com/logic/logicmod/data/client/ModRecipeProvider.java
- com.logic.logicmod.data.client.ModRecipeProvider
+com/logic/logicmod/setup/ModBlocks.java
+ com.logic.logicmod.setup.ModBlocks
+com/logic/logicmod/setup/RegistryHandler.java
+ com.logic.logicmod.setup.RegistryHandler
+ com.logic.logicmod.setup.RegistryHandler$Client
+com/logic/logicmod/setup/ModTileEntitiyType.java
+ com.logic.logicmod.setup.ModTileEntitiyType
+com/logic/logicmod/block/CircuitTable/GateBuilderTileEntityRenderer.java
+ com.logic.logicmod.block.CircuitTable.GateBuilderTileEntityRenderer
+com/logic/logicmod/setup/ModRecipes.java
+ com.logic.logicmod.setup.ModRecipes
+ com.logic.logicmod.setup.ModRecipes$Types
+com/logic/logicmod/block/CircuitTable/GateBuilderScreen.java
+ com.logic.logicmod.block.CircuitTable.GateBuilderScreen
+com/logic/logicmod/setup/ModContainerType.java
+ com.logic.logicmod.setup.ModContainerType
+com/logic/logicmod/block/CircuitTable/GateBuilderConatiner.java
+ com.logic.logicmod.block.CircuitTable.GateBuilderConatiner
+ com.logic.logicmod.block.CircuitTable.GateBuilderConatiner$1
+ com.logic.logicmod.block.CircuitTable.GateBuilderConatiner$2
+com/logic/logicmod/block/CircuitTable/GateBuilderTileEntity.java
+ com.logic.logicmod.block.CircuitTable.GateBuilderTileEntity
+ com.logic.logicmod.block.CircuitTable.GateBuilderTileEntity$1

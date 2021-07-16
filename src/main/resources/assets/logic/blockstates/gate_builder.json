@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "logic:block/gate_builder"},
+    "facing=south": {"model": "logic:block/gate_builder", "y": 180},
+    "facing=west": {"model": "logic:block/gate_builder", "y": 270},
+    "facing=east": {"model": "logic:block/gate_builder", "y": 90}
+  }
+}

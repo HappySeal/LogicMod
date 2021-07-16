@@ -1,0 +1,14 @@
+{
+  "type": "logic:assembling",
+  "ingredient_0": {
+    "item": "minecraft:andesite"
+  },
+  "ingredient_1": {
+    "item": "minecraft:andesite"
+  },
+  "ingredient_2": {
+    "item": "minecraft:andesite"
+  },
+  "result": "minecraft:stone",
+  "count": 3
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "logic:bitium"
+  },
+  "result": "logic:transistor",
+  "experience": 0.7,
+  "cookingtime": 100
+}
