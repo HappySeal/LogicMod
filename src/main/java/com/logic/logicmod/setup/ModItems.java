@@ -1,8 +1,11 @@
 package com.logic.logicmod.setup;
 
+import com.logic.logicmod.item.SolderingIronItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.fml.RegistryObject;
+
+import java.rmi.registry.Registry;
 
 public class ModItems {
     public static final RegistryObject<Item> BITIUM = RegistryHandler.ITEMS.register("bitium", () ->
@@ -28,6 +31,11 @@ public class ModItems {
                     new Item.Properties().tab(ItemGroup.TAB_MATERIALS)
             )
     );
+
+    public static final RegistryObject<SolderingIronItem> SOLDERING_IRON = RegistryHandler.ITEMS.register("soldering_iron", () ->
+            new SolderingIronItem(
+                    new Item.Properties()
+            ));
 
     public static void register() {
     }

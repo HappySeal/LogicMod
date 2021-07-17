@@ -26,6 +26,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         buildItem(itemGenerated, "redstone_byte");
         buildItem(itemGenerated, "transistor");
         buildItem(itemGenerated, "wafer");
+
     }
 
 
