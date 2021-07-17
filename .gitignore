@@ -23,8 +23,9 @@
 .idea/
 build/
 run/
+gradle/
 
-build.gralde
+build.gradle
 gradlew
 gradlew.bat
 
