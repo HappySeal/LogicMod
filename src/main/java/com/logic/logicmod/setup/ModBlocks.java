@@ -1,5 +1,6 @@
 package com.logic.logicmod.setup;
 
+import com.logic.logicmod.block.CircuitTable.GateBuilderBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -13,12 +14,12 @@ import net.minecraftforge.fml.RegistryObject;
 import java.util.function.Supplier;
 
 public class ModBlocks {
-    public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> material){
+    public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> material) {
         return RegistryHandler.BLOCKS.register(name, material);
     }
 
-    public static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block){
-        RegistryObject<T> ret = registerBlock(name,block);
+    public static <T extends Block> RegistryObject<T> register(String name, Supplier<T> block) {
+        RegistryObject<T> ret = registerBlock(name, block);
         RegistryHandler.ITEMS.register(name, () ->
                 new BlockItem(
                         ret.get(),
@@ -28,6 +29,17 @@ public class ModBlocks {
         return ret;
     }
 
+
+    public static final RegistryObject<GateBuilderBlock> GATE_BUILDER = register("gate_builder", () ->
+            new GateBuilderBlock(
+                    AbstractBlock.Properties
+                        .of(Material.METAL)
+                        .strength(4.0f, 3.0f)
+                        .harvestLevel(1)
+                        .sound(SoundType.METAL)
+                        .harvestTool(ToolType.PICKAXE)
+            )
+    );
 
     public static final RegistryObject<Block> BITIUM_ORE = register("bitium_ore", () ->
             new Block(

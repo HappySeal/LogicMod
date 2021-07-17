@@ -1,0 +1,14 @@
+{
+  "type": "logic:assembling",
+  "ingredient_0": {
+    "item": "minecraft:redstone"
+  },
+  "ingredient_1": {
+    "item": "minecraft:coal"
+  },
+  "ingredient_2": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": "minecraft:diamond",
+  "count": 2
+}

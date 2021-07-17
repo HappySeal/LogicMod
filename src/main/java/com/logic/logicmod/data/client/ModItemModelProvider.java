@@ -23,6 +23,10 @@ public class ModItemModelProvider extends ItemModelProvider {
 
 
         buildItem(itemGenerated, "bitium");
+        buildItem(itemGenerated, "redstone_byte");
+        buildItem(itemGenerated, "transistor");
+        buildItem(itemGenerated, "wafer");
+
     }
 
 

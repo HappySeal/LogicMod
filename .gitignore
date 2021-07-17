@@ -19,11 +19,15 @@
 *.tar.gz
 *.rar
 
-./.gradle
-./.idea
-./run
+.gradle/
+.idea/
+build/
+run/
+gradle/
 
+build.gradle
+gradlew
+gradlew.bat
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat

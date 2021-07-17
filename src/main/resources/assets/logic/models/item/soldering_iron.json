@@ -1,0 +1,65 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/soldering_iron_01"
+    },
+    "overrides": [
+      {
+            "predicate": {
+                "damaged": 1,
+                "damage": 0.125
+            },
+            "model": "item/soldering_iron/soldering_iron_01"
+        },
+      {
+            "predicate": {
+                "damaged": 1,
+                "damage": 0.25
+            },
+            "model": "item/soldering_iron/soldering_iron_02"
+        },
+      {
+            "predicate": {
+                "damaged": 1,
+                "damage": 0.375
+            },
+            "model": "item/soldering_iron/soldering_iron_03"
+        },
+      {
+            "predicate": {
+                "damaged": 1,
+                "damage": 0.500
+            },
+            "model": "item/soldering_iron/soldering_iron_04"
+        },
+      {
+            "predicate": {
+                "damaged": 1,
+                "damage": 0.625
+            },
+            "model": "item/soldering_iron/soldering_iron_05"
+        },
+      {
+            "predicate": {
+                "damaged": 1,
+                "damage": 0.750
+            },
+            "model": "item/soldering_iron/soldering_iron_06"
+        },
+      {
+            "predicate": {
+                "damaged": 1,
+                "damage": 0.875
+            },
+            "model": "item/soldering_iron/soldering_iron_07"
+        },
+      {
+            "predicate": {
+                "damaged": 1,
+                "damage": 1
+            },
+            "model": "item/soldering_iron/soldering_iron_08"
+        }
+
+    ]
+}

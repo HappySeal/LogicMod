@@ -55,6 +55,7 @@ public class ModLootTableProvider extends LootTableProvider {
         @Override
         protected void addTables() {
             dropSelf(ModBlocks.BITIUM_BLOCK.get());
+            dropSelf(ModBlocks.GATE_BUILDER.get());
 
             addOre(ModBlocks.BITIUM_ORE.get(), ModItems.BITIUM.get(), 4f, 8f, Enchantments.BLOCK_FORTUNE);
         }
